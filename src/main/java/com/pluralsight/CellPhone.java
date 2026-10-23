@@ -3,11 +3,11 @@ package com.pluralsight;
 public class CellPhone {
 
     //Fields
-    int serialNumber; //stores the cellphone cerial number
-    String model;
-    String carrier;
-    String phoneNumber;
-    String owner;
+   private int serialNumber; //stores the cellphone cerial number
+    private String model;
+    private String carrier;
+    private String phoneNumber;
+    private String owner;
 
     //Constructor
     public CellPhone() {
@@ -38,7 +38,7 @@ public class CellPhone {
 
     //carrier
     public void setCarrier(String carrier){
-        this.model = carrier;
+        this.carrier = carrier;
     }
 
     public String getCarrier () {
